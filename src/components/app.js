@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 
-const Header = () => {
+class Header extends Component {
+  render(){
+    return(
       <header>Hola soy Aurora</header>
+    )
+  }
 }
 
-const Section = () => {
+class Section extends Component {
+ render(){
+   return(
      <section>
        <h2>Gustos</h2>
        <ul>
@@ -14,9 +20,16 @@ const Section = () => {
          
        </ul>
      </section>
+   )
+ }
 }
-const Footer = () => {
+
+class Footer extends Component {
+ render(){
+   return(
      <footer>Copirigth</footer>
+   )
+ }
 }
 
 const App = () => (
