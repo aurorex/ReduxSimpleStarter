@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 
 class Header extends Component {
   render(){
     return(
-      <header>Hola soy Aurora</header>
+      <header>
+        <h1>Hola soy Aurora</h1>
+        </header>
     )
   }
 }
